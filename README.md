@@ -1,11 +1,7 @@
-# string.js (meteor)
-String.js - A dead simple, customizable plain text parser for JS - ported to meteor
-
-
 [string.js](http://stringjs.com)
 =========
 
-`string.js`, or simply `S` is a lightweight (**< 5 kb** minified and gzipped) JavaScript library for `client` and `server` that provides extra String methods. 
+String.js - A dead simple, customizable plain text parser for JS - ported to meteor. `string.js`, or simply `S` is a lightweight (**< 5 kb** minified and gzipped) JavaScript library for `client` and `server` that provides extra String methods. 
 
 Installation
 ------------
@@ -16,6 +12,15 @@ Installation
 
 Usage
 -----
+
+### Meteor.js
+
+```javascript
+var someString = S("myString!").between("my", "!"); // returns: Stri
+```
+
+When using in Meteor, the S object is global.
+
 
 ### Node.js
 
